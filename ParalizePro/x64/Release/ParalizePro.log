@@ -1,0 +1,25 @@
+﻿C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets(459,5): warning MSB8028: The intermediate directory (x64\Release\) contains files shared from another project (AlphaAntiLeak.vcxproj, default.vcxproj, keagau.vcxproj, ParalizePro.vcxproj).  This can lead to incorrect clean and rebuild behavior.
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets(1002,5): warning MSB8027: Two or more files with the name of Base64.cpp will produce outputs to the same location. This can lead to an incorrect build result.  The files involved are Base64.cpp, Encryption\Base64.cpp.
+  Aimbot.cpp
+  CheatManager.cpp
+  Renderer.cpp
+  paralyze_drawing.cpp
+  paralyze_drawing_input.cpp
+  paralyze_drawing_menu.cpp
+  paralyze_drawing_setup.cpp
+  paralyze_drawing_visuals.cpp
+  Entity.cpp
+  GameRenderer.cpp
+  GlowManager.cpp
+  LocalPlayerManager.cpp
+  ParalizePro.cpp
+  StatusManager.cpp
+  paralyze_cheat_memory.cpp
+x64\Release\Base64.obj : warning LNK4042: Objekt mehrmals angegeben; zusätzliche Objekte werden ignoriert.
+MSVCRT.lib(initializers.obj) : warning LNK4098: Standardbibliothek "libcmt.lib" steht in Konflikt mit anderen Bibliotheken; /NODEFAULTLIB:Bibliothek verwenden.
+  Code wird generiert.
+  0 of 2231 functions ( 0.0%) were compiled, the rest were copied from previous compilation.
+    0 functions were new in current compilation
+    0 functions had inline decision re-evaluated but remain unchanged
+  Codegenerierung ist abgeschlossen.
+  ParalizePro.vcxproj -> E:\edge\x64\Release\edge.exe

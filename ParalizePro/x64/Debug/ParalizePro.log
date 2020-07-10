@@ -1,0 +1,49 @@
+﻿  pch.cpp
+  Base64.cpp
+  CheatManager.cpp
+D:\GitHub\paralyze\pubg\ParalizePro\Base64.cpp(89,1): fatal error C1010: Unerwartetes Dateiende während der Suche nach dem vorkompilierten Header. Haben Sie möglicherweise vergessen, im Quellcode "#include "pch.h"" einzufügen?
+  paralyze_drawing.cpp
+D:\GitHub\paralyze\pubg\ParalizePro\CheatManager.cpp(53,1): fatal error C1010: Unerwartetes Dateiende während der Suche nach dem vorkompilierten Header. Haben Sie möglicherweise vergessen, im Quellcode "#include "pch.h"" einzufügen?
+  paralyze_drawing_input.cpp
+D:\GitHub\paralyze\pubg\ParalizePro\Drawing\paralyze_drawing.cpp(205,1): fatal error C1010: Unerwartetes Dateiende während der Suche nach dem vorkompilierten Header. Haben Sie möglicherweise vergessen, im Quellcode "#include "pch.h"" einzufügen?
+  paralyze_drawing_menu.cpp
+D:\GitHub\paralyze\pubg\ParalizePro\Drawing\paralyze_drawing_input.cpp(105,1): fatal error C1010: Unerwartetes Dateiende während der Suche nach dem vorkompilierten Header. Haben Sie möglicherweise vergessen, im Quellcode "#include "pch.h"" einzufügen?
+  paralyze_drawing_setup.cpp
+D:\GitHub\paralyze\pubg\ParalizePro\Drawing\paralyze_drawing_menu.cpp(54,1): fatal error C1010: Unerwartetes Dateiende während der Suche nach dem vorkompilierten Header. Haben Sie möglicherweise vergessen, im Quellcode "#include "pch.h"" einzufügen?
+  paralyze_drawing_visuals.cpp
+D:\GitHub\paralyze\pubg\ParalizePro\Drawing\paralyze_drawing_setup.cpp(128,1): fatal error C1010: Unerwartetes Dateiende während der Suche nach dem vorkompilierten Header. Haben Sie möglicherweise vergessen, im Quellcode "#include "pch.h"" einzufügen?
+  Renderer.cpp
+D:\GitHub\paralyze\pubg\ParalizePro\Drawing\paralyze_drawing_visuals.cpp(183,1): fatal error C1010: Unerwartetes Dateiende während der Suche nach dem vorkompilierten Header. Haben Sie möglicherweise vergessen, im Quellcode "#include "pch.h"" einzufügen?
+  imgui.cpp
+D:\GitHub\paralyze\pubg\ParalizePro\Drawing\Renderer.cpp(133,1): fatal error C1010: Unerwartetes Dateiende während der Suche nach dem vorkompilierten Header. Haben Sie möglicherweise vergessen, im Quellcode "#include "pch.h"" einzufügen?
+D:\GitHub\paralyze\pubg\ParalizePro\ImGui\imgui.cpp(2187,1): warning C4005: "va_copy": Makro-Neudefinition
+D:\GitHub\paralyze\pubg\ParalizePro\ImGui\imgui.cpp(2185): message : Siehe vorherige Definition von "va_copy"
+  imgui_demo.cpp
+D:\GitHub\paralyze\pubg\ParalizePro\ImGui\imgui.cpp(10615,1): fatal error C1010: Unerwartetes Dateiende während der Suche nach dem vorkompilierten Header. Haben Sie möglicherweise vergessen, im Quellcode "#include "pch.h"" einzufügen?
+D:\GitHub\paralyze\pubg\ParalizePro\ImGui\imgui_demo.cpp(106,1): warning C4005: "IM_NEWLINE": Makro-Neudefinition
+D:\GitHub\paralyze\pubg\ParalizePro\ImGui\imgui_demo.cpp(102): message : Siehe vorherige Definition von "IM_NEWLINE"
+  imgui_draw.cpp
+D:\GitHub\paralyze\pubg\ParalizePro\ImGui\imgui_demo.cpp(4687,1): fatal error C1010: Unerwartetes Dateiende während der Suche nach dem vorkompilierten Header. Haben Sie möglicherweise vergessen, im Quellcode "#include "pch.h"" einzufügen?
+D:\GitHub\paralyze\pubg\ParalizePro\ImGui\imgui_draw.cpp(126,10): error C2006: "#include": FILENAME oder <FILENAME> erwartet.
+D:\GitHub\paralyze\pubg\ParalizePro\ImGui\imgui_draw.cpp(149,10): error C2006: "#include": FILENAME oder <FILENAME> erwartet.
+  imgui_impl_dx11.cpp
+D:\GitHub\paralyze\pubg\ParalizePro\ImGui\imgui_draw.cpp(3359,1): fatal error C1010: Unerwartetes Dateiende während der Suche nach dem vorkompilierten Header. Haben Sie möglicherweise vergessen, im Quellcode "#include "pch.h"" einzufügen?
+  imgui_impl_win32.cpp
+D:\GitHub\paralyze\pubg\ParalizePro\ImGui\imgui_impl_dx11.cpp(544,1): fatal error C1010: Unerwartetes Dateiende während der Suche nach dem vorkompilierten Header. Haben Sie möglicherweise vergessen, im Quellcode "#include "pch.h"" einzufügen?
+  imgui_widgets.cpp
+D:\GitHub\paralyze\pubg\ParalizePro\ImGui\imgui_impl_win32.cpp(324,1): fatal error C1010: Unerwartetes Dateiende während der Suche nach dem vorkompilierten Header. Haben Sie möglicherweise vergessen, im Quellcode "#include "pch.h"" einzufügen?
+  paralyze_cheat_memory.cpp
+D:\GitHub\paralyze\pubg\ParalizePro\ImGui\imgui_widgets.cpp(7520,1): fatal error C1010: Unerwartetes Dateiende während der Suche nach dem vorkompilierten Header. Haben Sie möglicherweise vergessen, im Quellcode "#include "pch.h"" einzufügen?
+  ParalizePro.cpp
+D:\GitHub\paralyze\pubg\ParalizePro\paralyze_cheat_memory.cpp(14,1): fatal error C1010: Unerwartetes Dateiende während der Suche nach dem vorkompilierten Header. Haben Sie möglicherweise vergessen, im Quellcode "#include "pch.h"" einzufügen?
+D:\GitHub\paralyze\pubg\ParalizePro\paralyze_cheat_memory.h(185,23): warning C4244: "=": Konvertierung von "SIZE_T" in "ULONG", möglicher Datenverlust
+  paralyze_pubg_decryption.cpp
+D:\GitHub\paralyze\pubg\ParalizePro\pubgc.h(5,10): fatal error C1083: Datei (Include) kann nicht geöffnet werden: "defs.h": No such file or directory
+  pubgc.cpp
+D:\GitHub\paralyze\pubg\ParalizePro\paralyze_pubg_decryption.cpp(124,1): fatal error C1010: Unerwartetes Dateiende während der Suche nach dem vorkompilierten Header. Haben Sie möglicherweise vergessen, im Quellcode "#include "pch.h"" einzufügen?
+  utils.cpp
+D:\GitHub\paralyze\pubg\ParalizePro\pubgc.cpp(454,1): fatal error C1010: Unerwartetes Dateiende während der Suche nach dem vorkompilierten Header. Haben Sie möglicherweise vergessen, im Quellcode "#include "pch.h"" einzufügen?
+  Vectors.cpp
+D:\GitHub\paralyze\pubg\ParalizePro\utils.cpp(139,1): fatal error C1010: Unerwartetes Dateiende während der Suche nach dem vorkompilierten Header. Haben Sie möglicherweise vergessen, im Quellcode "#include "pch.h"" einzufügen?
+  Code wird generiert...
+D:\GitHub\paralyze\pubg\ParalizePro\Vectors.cpp(106,1): fatal error C1010: Unerwartetes Dateiende während der Suche nach dem vorkompilierten Header. Haben Sie möglicherweise vergessen, im Quellcode "#include "pch.h"" einzufügen?

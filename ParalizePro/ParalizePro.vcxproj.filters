@@ -1,0 +1,279 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Quelldateien">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Headerdateien">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Ressourcendateien">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Headerdateien\Security">
+      <UniqueIdentifier>{ef0ef0c8-f56f-4969-8329-2b5c42c48a46}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Quelldateien\Drawing">
+      <UniqueIdentifier>{99c1ef7f-673f-40f2-920d-9695ef276c72}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Headerdateien\IMGUI">
+      <UniqueIdentifier>{02d4d1e6-f30c-4ce0-b0cf-8c5905868634}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Quelldateien\SDK">
+      <UniqueIdentifier>{4c327ea0-928c-44a9-8a90-058fbbe3f031}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Headerdateien\SDK">
+      <UniqueIdentifier>{2244dcf8-a53f-4693-bbbd-608873de3598}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Quelldateien\Auth">
+      <UniqueIdentifier>{80472948-1d83-46de-8bb5-a67d6667db6a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Quelldateien\ComputerIdentifier">
+      <UniqueIdentifier>{746428b4-eb61-4856-ae66-38b2b2b0b15b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Quelldateien\Encryption">
+      <UniqueIdentifier>{b762ab7d-b515-4e86-a2fb-876a2896194a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Quelldateien\Security">
+      <UniqueIdentifier>{ee160c64-973b-43a2-9f0f-8e238e299e67}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="pch.h">
+      <Filter>Headerdateien</Filter>
+    </ClInclude>
+    <ClInclude Include="MetaStr.h">
+      <Filter>Headerdateien</Filter>
+    </ClInclude>
+    <ClInclude Include="paralyze_cheat_memory.h">
+      <Filter>Headerdateien</Filter>
+    </ClInclude>
+    <ClInclude Include="CheatManager.h">
+      <Filter>Headerdateien</Filter>
+    </ClInclude>
+    <ClInclude Include="Base64.h">
+      <Filter>Headerdateien</Filter>
+    </ClInclude>
+    <ClInclude Include="utils.h">
+      <Filter>Headerdateien</Filter>
+    </ClInclude>
+    <ClInclude Include="Drawing\paralyze_drawing.h">
+      <Filter>Quelldateien\Drawing</Filter>
+    </ClInclude>
+    <ClInclude Include="Drawing\paralyze_drawing_input.h">
+      <Filter>Quelldateien\Drawing</Filter>
+    </ClInclude>
+    <ClInclude Include="Drawing\paralyze_drawing_menu.h">
+      <Filter>Quelldateien\Drawing</Filter>
+    </ClInclude>
+    <ClInclude Include="Drawing\paralyze_drawing_setup.h">
+      <Filter>Quelldateien\Drawing</Filter>
+    </ClInclude>
+    <ClInclude Include="Drawing\Renderer.h">
+      <Filter>Quelldateien\Drawing</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGui\imconfig.h">
+      <Filter>Headerdateien\IMGUI</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGui\imgui.h">
+      <Filter>Headerdateien\IMGUI</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGui\imgui_impl_dx11.h">
+      <Filter>Headerdateien\IMGUI</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGui\imgui_impl_win32.h">
+      <Filter>Headerdateien\IMGUI</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGui\imgui_internal.h">
+      <Filter>Headerdateien\IMGUI</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGui\imstb_rectpack.h">
+      <Filter>Headerdateien\IMGUI</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGui\imstb_textedit.h">
+      <Filter>Headerdateien\IMGUI</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGui\imstb_truetype.h">
+      <Filter>Headerdateien\IMGUI</Filter>
+    </ClInclude>
+    <ClInclude Include="Drawing\paralyze_drawing_visuals.h">
+      <Filter>Headerdateien</Filter>
+    </ClInclude>
+    <ClInclude Include="Entity.h">
+      <Filter>Headerdateien\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Offsets.h">
+      <Filter>Headerdateien\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="GameRenderer.h">
+      <Filter>Headerdateien\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="StatusManager.h">
+      <Filter>Headerdateien\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Settings.h">
+      <Filter>Headerdateien\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="LocalPlayerManager.h">
+      <Filter>Headerdateien\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Aimbot.h">
+      <Filter>Headerdateien</Filter>
+    </ClInclude>
+    <ClInclude Include="Auth\ConnectionHandler.h">
+      <Filter>Quelldateien\Auth</Filter>
+    </ClInclude>
+    <ClInclude Include="Auth\paralyze_auth.h">
+      <Filter>Quelldateien\Auth</Filter>
+    </ClInclude>
+    <ClInclude Include="Auth\sha1.h">
+      <Filter>Quelldateien\Auth</Filter>
+    </ClInclude>
+    <ClInclude Include="ComputerIdentifier\ComputerIdentifier.h">
+      <Filter>Quelldateien\ComputerIdentifier</Filter>
+    </ClInclude>
+    <ClInclude Include="ComputerIdentifier\HardInfoHelper.h">
+      <Filter>Quelldateien\ComputerIdentifier</Filter>
+    </ClInclude>
+    <ClInclude Include="ComputerIdentifier\RegistryInfoHelper.h">
+      <Filter>Quelldateien\ComputerIdentifier</Filter>
+    </ClInclude>
+    <ClInclude Include="Encryption\aes.h">
+      <Filter>Quelldateien\Encryption</Filter>
+    </ClInclude>
+    <ClInclude Include="Encryption\AesCryptoHandler.h">
+      <Filter>Quelldateien\Encryption</Filter>
+    </ClInclude>
+    <ClInclude Include="Encryption\Base64.h">
+      <Filter>Quelldateien\Encryption</Filter>
+    </ClInclude>
+    <ClInclude Include="paralyze_security_screenshot.h">
+      <Filter>Quelldateien\Security</Filter>
+    </ClInclude>
+    <ClInclude Include="Security.h">
+      <Filter>Quelldateien\Security</Filter>
+    </ClInclude>
+    <ClInclude Include="Vectors.h">
+      <Filter>Quelldateien</Filter>
+    </ClInclude>
+    <ClInclude Include="GlowManager.h">
+      <Filter>Headerdateien\SDK</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="pch.cpp">
+      <Filter>Quelldateien</Filter>
+    </ClCompile>
+    <ClCompile Include="paralyze_cheat_memory.cpp">
+      <Filter>Quelldateien</Filter>
+    </ClCompile>
+    <ClCompile Include="CheatManager.cpp">
+      <Filter>Quelldateien</Filter>
+    </ClCompile>
+    <ClCompile Include="Base64.cpp">
+      <Filter>Quelldateien</Filter>
+    </ClCompile>
+    <ClCompile Include="utils.cpp">
+      <Filter>Quelldateien</Filter>
+    </ClCompile>
+    <ClCompile Include="Drawing\paralyze_drawing.cpp">
+      <Filter>Quelldateien\Drawing</Filter>
+    </ClCompile>
+    <ClCompile Include="Drawing\paralyze_drawing_input.cpp">
+      <Filter>Quelldateien\Drawing</Filter>
+    </ClCompile>
+    <ClCompile Include="Drawing\paralyze_drawing_menu.cpp">
+      <Filter>Quelldateien\Drawing</Filter>
+    </ClCompile>
+    <ClCompile Include="Drawing\paralyze_drawing_setup.cpp">
+      <Filter>Quelldateien\Drawing</Filter>
+    </ClCompile>
+    <ClCompile Include="Drawing\Renderer.cpp">
+      <Filter>Quelldateien\Drawing</Filter>
+    </ClCompile>
+    <ClCompile Include="ImGui\imgui.cpp">
+      <Filter>Headerdateien\IMGUI</Filter>
+    </ClCompile>
+    <ClCompile Include="ImGui\imgui_demo.cpp">
+      <Filter>Headerdateien\IMGUI</Filter>
+    </ClCompile>
+    <ClCompile Include="ImGui\imgui_draw.cpp">
+      <Filter>Headerdateien\IMGUI</Filter>
+    </ClCompile>
+    <ClCompile Include="ImGui\imgui_impl_dx11.cpp">
+      <Filter>Headerdateien\IMGUI</Filter>
+    </ClCompile>
+    <ClCompile Include="ImGui\imgui_impl_win32.cpp">
+      <Filter>Headerdateien\IMGUI</Filter>
+    </ClCompile>
+    <ClCompile Include="ImGui\imgui_widgets.cpp">
+      <Filter>Headerdateien\IMGUI</Filter>
+    </ClCompile>
+    <ClCompile Include="Vectors.cpp">
+      <Filter>Quelldateien</Filter>
+    </ClCompile>
+    <ClCompile Include="ParalizePro.cpp">
+      <Filter>Quelldateien</Filter>
+    </ClCompile>
+    <ClCompile Include="Entity.cpp">
+      <Filter>Quelldateien\SDK</Filter>
+    </ClCompile>
+    <ClCompile Include="GameRenderer.cpp">
+      <Filter>Quelldateien\SDK</Filter>
+    </ClCompile>
+    <ClCompile Include="StatusManager.cpp">
+      <Filter>Quelldateien\SDK</Filter>
+    </ClCompile>
+    <ClCompile Include="Settings.cpp">
+      <Filter>Quelldateien\SDK</Filter>
+    </ClCompile>
+    <ClCompile Include="Drawing\paralyze_drawing_visuals.cpp">
+      <Filter>Quelldateien\Drawing</Filter>
+    </ClCompile>
+    <ClCompile Include="LocalPlayerManager.cpp">
+      <Filter>Quelldateien\SDK</Filter>
+    </ClCompile>
+    <ClCompile Include="Aimbot.cpp">
+      <Filter>Quelldateien</Filter>
+    </ClCompile>
+    <ClCompile Include="Auth\ConnectionHandler.cpp">
+      <Filter>Quelldateien\Auth</Filter>
+    </ClCompile>
+    <ClCompile Include="Auth\paralyze_auth.cpp">
+      <Filter>Quelldateien\Auth</Filter>
+    </ClCompile>
+    <ClCompile Include="ComputerIdentifier\ComputerIdentifier.cpp">
+      <Filter>Quelldateien\ComputerIdentifier</Filter>
+    </ClCompile>
+    <ClCompile Include="ComputerIdentifier\HardInfoHelper.cpp">
+      <Filter>Quelldateien\ComputerIdentifier</Filter>
+    </ClCompile>
+    <ClCompile Include="ComputerIdentifier\RegistryInfoHelper.cpp">
+      <Filter>Quelldateien\ComputerIdentifier</Filter>
+    </ClCompile>
+    <ClCompile Include="Encryption\aes.cpp">
+      <Filter>Quelldateien\Encryption</Filter>
+    </ClCompile>
+    <ClCompile Include="Encryption\AesCryptoHandler.cpp">
+      <Filter>Quelldateien\Encryption</Filter>
+    </ClCompile>
+    <ClCompile Include="Encryption\Base64.cpp">
+      <Filter>Quelldateien\Encryption</Filter>
+    </ClCompile>
+    <ClCompile Include="paralyze_security_screenshot.cpp">
+      <Filter>Quelldateien\Security</Filter>
+    </ClCompile>
+    <ClCompile Include="Security.cpp">
+      <Filter>Quelldateien\Security</Filter>
+    </ClCompile>
+    <ClCompile Include="Offsets.cpp">
+      <Filter>Quelldateien\SDK</Filter>
+    </ClCompile>
+    <ClCompile Include="GlowManager.cpp">
+      <Filter>Quelldateien\SDK</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
